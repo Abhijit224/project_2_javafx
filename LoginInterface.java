@@ -1,11 +1,9 @@
-package Controller;
+package ProssesingClass;
 
-import java.util.List;
-
-import PojoData.LoginPojo;
+import collegePojo.UserLoginPojo;
 
 public interface LoginInterface {
 
-	boolean LoginInterface(LoginPojo lp);
+	boolean LoginProsses(UserLoginPojo ulp);
 
 }
